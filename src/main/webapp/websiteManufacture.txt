@@ -1,0 +1,2 @@
+#lga -> http://www.google.de
+#spContainer -> http://www.spiegel.de 

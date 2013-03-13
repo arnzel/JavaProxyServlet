@@ -1,0 +1,4 @@
+//#hplogo -> remove
+//#lga -> addCss -> background-color -> yellow
+//div  -> append -> <p>Hier ist ein Div</p>
+//input -> addClasses -> bla1 -> bla2 -> bla3

@@ -1,0 +1,19 @@
+redirect bei http://www.gmx.de//js.gmx.net/gmx/hp10/css/20121025/base.css
+
+- fehlerhandling
+- tests ?
+- kommentare
+
+
+Header-Field Transfer-Encoding wird bewust ignoriert -> Ist das problematisch ?
+cookies -> cookies werden nicht im request gesetzt. testfall:produkt bei amazon in den warenkorb legen
+
+
+
+Jerry:
+
+Jquery Ausdrücke auf JerryAccess-Funktionen parsen. 
+
+Bsp: 
+
+$('.hello').remove(); ->  jerryAccess.remove('hello');

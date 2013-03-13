@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"   
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      >
+    <h:head>
+    	<h:outputStylesheet library="css" name="table-style.css"  />
+    </h:head>
+    <h:body>
+ 
+    	<h1>File Cache</h1>
+ 
+    		<h:dataTable value="#{filePageCacheAccessBean.fileNames}" var="fileName"
+    			styleClass="order-table"
+    			headerClass="order-table-header"
+    			rowClasses="order-table-odd-row,order-table-even-row"
+    		>
+ 
+    			<h:column>
+    				<!-- column header -->
+    				<f:facet name="header">Dateiname</f:facet>
+    				<!-- row record -->
+    				#{fileName}
+    			</h:column>
+				<h:column>
+    				<!-- column header -->
+    				<f:facet name="header">Zeit</f:facet>
+    				<!-- row record -->
+    				#{filePageCacheAccessBean.getDateFromFileName(fileName)}
+    			</h:column>
+ 
+    		</h:dataTable>
+ 
+    </h:body>
+</html>
