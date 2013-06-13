@@ -1,14 +1,14 @@
 Java Servlet Proxy
 ==================
 
-A proxy Connection written in Java using the Servlet technology.
+A Webproxy written in Java using the Servlet technology.
 
 Features
 --------
 
-1.    Proxy Connection
+1.    Proxy-Connection
 2.    Caching requested files
-3.    Transformations of the sites via jquery-selectors
+3.    Manipulating sites with jquery-selectors
 
 
 Requirements
@@ -22,7 +22,7 @@ Details
 
 1.    Proxy Connection
 
-      The Servlet ProxyServlet uses the jdk class UrlConnection for handling the requests. In the html of the requests the links to other sites are rewitten to urls that managed by the ProxyServlet for an example the link "/subpage.html" on the site http://www.example.com is rewritten to http://localhost:8080/webproxy/proxy?targetUrl=http://www.example.com/subpage.html. Link to resources in html-files are rewritten in similliary way.
+      The Servlet ProxyServlet uses the jdk class UrlConnection for handling the requests. In the html of the requests the links to other sites are rewitten to urls that managed by the ProxyServlet. For an example the link "/subpage.html" on the site http://www.example.com is rewritten to http://localhost:8080/webproxy/proxy?targetUrl=http://www.example.com/subpage.html. Link to resources in html-files are rewritten in similliary way.
 
 2.    Caching requested files
       There are two caches 
