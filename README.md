@@ -31,5 +31,5 @@ Details
 
 3.    Transformations of the sites via jquery-selectors
       
-      Transformations to the requested sites can be declared in the file transformations.txt. The sytax of each transformation is : css-Seelktor ->
+      Transformations to the requested sites can be declared in the file transformations.txt. The sytax of each transformation is : css-Selektor -> JQueryMethod [-> Parameters]*
      
