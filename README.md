@@ -8,7 +8,7 @@ Features
 
 1.    Proxy-Connection
 2.    Caching requested files
-3.    Manipulating sites with jquery-selectors
+3.    Manipulating sites with jquery Selectors
 
 
 Requirements
